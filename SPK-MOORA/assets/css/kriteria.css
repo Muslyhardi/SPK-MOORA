@@ -1,0 +1,35 @@
+.kriteria-toolbar{
+
+    display:flex;
+
+    gap:12px;
+
+    margin-bottom:20px;
+
+}
+
+.action-btn{
+
+    background:#145A32;
+
+    color:white;
+
+    border:none;
+
+    padding:12px 24px;
+
+    border-radius:10px;
+
+    cursor:pointer;
+
+    font-size:15px;
+
+    font-weight:500;
+
+}
+
+.action-btn:hover{
+
+    opacity:.9;
+
+}

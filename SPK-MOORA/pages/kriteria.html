@@ -1,0 +1,62 @@
+<div class="table-card">
+
+    <div class="kriteria-toolbar">
+
+        <button
+            class="action-btn"
+            onclick="showTambahKriteria()">
+
+            Tambah
+
+        </button>
+
+        <button
+            class="action-btn"
+            onclick="aktifkanEditKriteria()">
+
+            Edit
+
+        </button>
+
+    </div>
+
+    <table class="main-table">
+
+        <thead>
+
+            <tr>
+
+                <th>ID</th>
+
+                <th>Nama Kriteria</th>
+
+                <th>Bobot (%)</th>
+
+                <th>Aksi</th>
+
+            </tr>
+
+        </thead>
+
+        <tbody id="kriteriaTable">
+
+        </tbody>
+
+    </table>
+
+    <div
+        id="totalBobot">
+
+    </div>
+
+    <br>
+
+    <button
+        id="btnSimpanKriteria"
+        onclick="simpanKriteria()">
+
+        Simpan
+
+    </button>
+
+</div>
