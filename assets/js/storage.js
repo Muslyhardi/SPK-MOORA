@@ -5,35 +5,65 @@ function initializeData() {
         const karyawan = [
 
             {
-                id: 1,
-                nama: "Andi",
-                jabatan: "Staff"
+                id:1,
+                nama:"Khairul Anhar",
+                jabatan:"Karyawan"
             },
-
+        
             {
-                id: 2,
-                nama: "Budi",
-                jabatan: "Staff"
+                id:2,
+                nama:"Vivi Elvina Simanjuntak",
+                jabatan:"Karyawan"
             },
-
+        
             {
-                id: 3,
-                nama: "Citra",
-                jabatan: "Supervisor"
+                id:3,
+                nama:"Rahmad Hidayat",
+                jabatan:"Karyawan"
             },
-
+        
             {
-                id: 4,
-                nama: "Dedi",
-                jabatan: "Staff"
+                id:4,
+                nama:"Rudi Hermansyah Bako",
+                jabatan:"Karyawan"
             },
-
+        
             {
-                id: 5,
-                nama: "Eka",
-                jabatan: "Staff"
+                id:5,
+                nama:"Ricky Syahputra",
+                jabatan:"Karyawan"
+            },
+        
+            {
+                id:6,
+                nama:"Rudi Sidabutar",
+                jabatan:"Karyawan"
+            },
+        
+            {
+                id:7,
+                nama:"Chandra Mualim Putra",
+                jabatan:"Karyawan"
+            },
+        
+            {
+                id:8,
+                nama:"Muhammad Soufi",
+                jabatan:"Karyawan"
+            },
+        
+            {
+                id:9,
+                nama:"Moethar Situmeang",
+                jabatan:"Karyawan"
+            },
+        
+            {
+                id:10,
+                nama:"Agustin Rahmawati",
+                jabatan:"Karyawan"
             }
-
+        
         ];
 
         localStorage.setItem(
