@@ -134,38 +134,54 @@ function initializeData() {
     if (!localStorage.getItem("kriteria")) {
 
         const kriteria = [
-
             {
-                id: 1,
-                nama: "Kehadiran",
-                bobot: 25
+                id:1,
+                nama:"Kedisiplinan",
+                bobot:34
             },
-
+        
             {
-                id: 2,
-                nama: "Produktivitas",
-                bobot: 25
+                id:2,
+                nama:"Kerjasama Tim",
+                bobot:21
             },
-
+        
             {
-                id: 3,
-                nama: "Sikap Kerja",
-                bobot: 20
+                id:3,
+                nama:"Sikap",
+                bobot:15
             },
-
+        
             {
-                id: 4,
-                nama: "Inisiatif",
-                bobot: 15
+                id:4,
+                nama:"Kehadiran",
+                bobot:11
             },
-
+        
             {
-                id: 5,
-                nama: "Tanggung Jawab",
-                bobot: 15
+                id:5,
+                nama:"Skill",
+                bobot:8
+            },
+        
+            {
+                id:6,
+                nama:"Loyalitas",
+                bobot:5
+            },
+        
+            {
+                id:7,
+                nama:"Masa Kerja",
+                bobot:3
+            },
+        
+            {
+                id:8,
+                nama:"Produktivitas",
+                bobot:2
             }
-
-        ];
+        ]
 
         localStorage.setItem(
             "kriteria",
